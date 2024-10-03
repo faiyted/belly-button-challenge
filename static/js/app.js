@@ -34,7 +34,7 @@ function buildMetadata(sample) {
       }
       let displayKey = custom[key] ? custom[key] : key;
 
-      d3.select("#sample-metadata").append("h5").text(`${displayKey}: ${value}`);
+      d3.select("#sample-metadata").append("h6").text(`${displayKey}: ${value}`);
   });
 
    console.log(entries)
